@@ -12,7 +12,6 @@ Phạm vi dự án bao gồm các chức năng như: quản lý thông tin ngư�
 ## II. Yêu cầu chức năng
 ### Các tác nhân
 - Hệ thống có 1 tác nhân chính: User.
-### Các chức năng chính
 <details>
 <summary>Code PlantUML</summary>
 
@@ -30,6 +29,7 @@ rectangle "Hệ thống" as User {
 
 <details>
 
+### Các chức năng chính
 **User:**
 * **Quản lý thông tin cá nhân:** Nhập và lưu tên người dùng khi sử dụng website lần đầu.
 * **Quản lý ngân sách:** Nhập ngân sách cho tháng hiện tại và xem thông tin ngân sách.
