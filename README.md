@@ -31,6 +31,8 @@ System --> User
 
 </details>
 
+![Actor.png](./image/Actor.png)
+
 ### Các chức năng chính
 
 **User:**
