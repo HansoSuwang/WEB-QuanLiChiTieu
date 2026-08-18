@@ -29,7 +29,7 @@ rectangle "Hệ thống" as User {
 @enduml
 ```
 
-<details>
+</details>
 
 ### Các chức năng chính
 
