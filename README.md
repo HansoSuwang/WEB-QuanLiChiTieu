@@ -25,7 +25,7 @@ actor User
 
 rectangle "Hệ thống" as System {
 }
-System --> User
+User --> System
 @enduml
 ```
 
