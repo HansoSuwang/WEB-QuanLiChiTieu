@@ -23,9 +23,9 @@ Phạm vi dự án bao gồm các chức năng như: quản lý thông tin ngư�
 
 actor User
 
-rectangle "Hệ thống" as User {
+rectangle "Hệ thống" as System {
 }
-
+System --> User
 @enduml
 ```
 
