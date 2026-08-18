@@ -13,6 +13,11 @@ Phạm vi dự án bao gồm các chức năng như: quản lý thông tin ngư�
 ### Các tác nhân
 - Hệ thống có 1 tác nhân chính: User.
 ### Các chức năng chính
+<details>
+<summary>Code PlantUML</summary>
+
+```plantuml
+
 @startuml "Biểu đồ tác nhân"
 
 actor User
@@ -21,6 +26,10 @@ rectangle "Hệ thống" as User {
 }
 
 @enduml
+```
+
+<details>
+
 **User:**
 * **Quản lý thông tin cá nhân:** Nhập và lưu tên người dùng khi sử dụng website lần đầu.
 * **Quản lý ngân sách:** Nhập ngân sách cho tháng hiện tại và xem thông tin ngân sách.
