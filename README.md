@@ -10,33 +10,8 @@ Phạm vi dự án bao gồm các chức năng như: quản lý thông tin ngư�
 - Website chỉ tập trung vào quản lý ngân sách và các khoản chi tiêu, không cung cấp các chức năng tài chính nâng cao.
 - Website không cung cấp chức năng thanh toán trực tuyến hoặc kết nối trực tiếp với ngân hàng.
 ## II. Yêu cầu chức năng
-### Các tác nhân
-
-- Hệ thống có 1 tác nhân chính: User.
-
-<details>
-<summary>Code PlantUML</summary>
-
-```plantuml
-
-@startuml "Biểu đồ tác nhân"
-
-actor User
-
-rectangle "Hệ thống" as System {
-}
-User --> System
-@enduml
-```
-
-</details>
-
-![Actor.png](./image/Actor.png)
-
 ### Các chức năng chính
-
 **User:**
-
 * **Quản lý thông tin cá nhân:** Nhập và lưu tên người dùng khi sử dụng website lần đầu.
 * **Quản lý ngân sách:** Nhập ngân sách cho tháng hiện tại và xem thông tin ngân sách.
 * **Quản lý chi tiêu:**
@@ -45,7 +20,6 @@ User --> System
 * **Theo dõi tình hình chi tiêu:**
     * **Xem tổng chi tiêu:** Theo dõi tổng số tiền đã chi trong tháng và trong ngày.
     * **Xem số tiền còn lại:** Theo dõi số tiền còn lại dựa trên ngân sách và khoản chi tiêu.
-    
 ## III. Yêu cầu phi chức năng
 ### 1. Hiệu suất
 * Thời gian tải trang nhanh và phù hợp với nhu cầu sử dụng cá nhân.
